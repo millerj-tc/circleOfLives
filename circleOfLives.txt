@@ -1,0 +1,86 @@
+[base_folder]=C:\nandeck(1)
+
+HTMLIMAGE = 1, fire!,"[base_folder]\tcgpics\cc0 icons\S_Fire02.png",.9,.9,PM
+HTMLIMAGE = 1, fire&,"[base_folder]\tcgpics\cc0 icons\S_Fire02.png",.675,.675,PM
+HTMLIMAGE = 1, fire~,"[base_folder]\tcgpics\cc0 icons\S_Fire02.png",.4,.4,PM
+HTMLIMAGE = 1, water!,"[base_folder]\tcgpics\cc0 icons\S_Water02.png",.9,.9,PM
+HTMLIMAGE = 1, water&,"[base_folder]\tcgpics\cc0 icons\S_Water02.png",.675,.675,PM
+HTMLIMAGE = 1, water~,"[base_folder]\tcgpics\cc0 icons\S_Water02.png",.4,.4,PM
+HTMLIMAGE = 1, air!,"[base_folder]\tcgpics\cc0 icons\S_Wind04.png",.9,.9,PM
+HTMLIMAGE = 1, air&,"[base_folder]\tcgpics\cc0 icons\S_Wind04.png",.675,.675,PM
+HTMLIMAGE = 1, air~,"[base_folder]\tcgpics\cc0 icons\S_Wind04.png",.4,.4,PM
+HTMLIMAGE = 1, earth!,"[base_folder]\tcgpics\cc0 icons\S_Earth01.png",.9,.9,PM
+HTMLIMAGE = 1, earth&,"[base_folder]\tcgpics\cc0 icons\S_Earth01.png",.675,.675,PM
+HTMLIMAGE = 1, earth~,"[base_folder]\tcgpics\cc0 icons\S_Earth01.png",.4,.4,PM
+HTMLIMAGE = 1, stars!,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",.9,.9,PM
+HTMLIMAGE = 1, stars&,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",.675,.675,PM
+HTMLIMAGE = 1, stars~,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",.4,.4,PM
+HTMLIMAGE = 1, drawc!,"[base_folder]\tcgpics\joseph art\drawCard.png",.9,.9,PM
+HTMLIMAGE = 1, drawc&,"[base_folder]\tcgpics\joseph art\drawCard.png",.675,.675,PM
+HTMLIMAGE = 1, drawc~,"[base_folder]\tcgpics\joseph art\drawCard.png",.4,.4,PM
+HTMLIMAGE = 1, time!,"[base_folder]\tcgpics\cc0 icons\I_Clock.png",.9,.9,PM
+HTMLIMAGE = 1, time&,"[base_folder]\tcgpics\cc0 icons\I_Clock.png",.675,.675,PM
+HTMLIMAGE = 1, time~,"[base_folder]\tcgpics\cc0 icons\I_Clock.png",.4,.4,PM
+HTMLIMAGE = 1, coin!,"[base_folder]\tcgpics\cc0 icons\I_SilverCoin.png",.9,.9,PM
+HTMLIMAGE = 1, coin&,"[base_folder]\tcgpics\cc0 icons\I_SilverCoin.png",.675,.675,PM
+HTMLIMAGE = 1, coin~,"[base_folder]\tcgpics\cc0 icons\I_SilverCoin.png",.4,.4,PM
+HTMLIMAGE = 1, death!,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.9,.9,PM
+HTMLIMAGE = 1, death&,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.675,.675,PM
+HTMLIMAGE = 1, death~,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.4,.4,PM
+
+; project ID = 2587359535
+
+LINKMULTI = num
+LINKNEW = <br>
+LINKFILTER = Inc = "@@@"
+LINK ="C:\Users\16515\Downloads\Circle Of Lives (2).xlsx"
+
+;VISUAL = ,10,10
+
+
+
+FONT = Arial, 16,F , #000000
+
+FONT = Arial, 22,F , #000000
+TEXT = , [Name], 2%, 2%, 96%, 8%
+HTMLFONT = awaken, Arial, 22, , #000000
+HTMLFONT = awakenWP, Arial, 20, , #000000,center
+HTMLFONT = awakenLittle, Arial, 5.5, , #000000, center
+HTMLFONT = awakenHuge,Arial, 36, ,#000000
+HTMLMARGINS = awaken, 0,0,0,0,center
+
+IMAGE = , [ImageLink], 0, 21.5%, 100%, 36.5%, 0, PNC
+
+IF = "Character" # [Type]
+    HTMLFONT = aN, "Agency FB",14,U,#000000
+    HTMLTEXT = , [FX], 4%, 59%, 93%, 38%, #FFFFFF, 0, EF, 100, effect
+;    ELSEIF = [Sorting] = "Fey"
+;    HTMLTEXT = , [FX], 4%, 59%, 93%, 33.5%, #FFFFFF, 0, EF, 100, awakenHuge
+    ELSE
+    HTMLTEXT = , [FX], 4%, 59%, 93%, 34.25%, #FFFFFF, 0, EF, 100, effect
+ENDIF
+
+
+IF = [Cost] <> ""
+    IF = [Type] = "Fey"
+    HTMLTEXT = , [Cost], 2%, 12.5%, 37%, 12%,#FFFFFF ,0, EF,100,awakenHuge
+    ELSE
+    HTMLTEXT = , [Cost], 2%, 12.5%, 32%, 8%,#FFFFFF ,0, EF,100,awaken
+    ENDIF
+ENDIF
+
+IF = [Type]<>""
+    IF = [Type] = "Fey"
+    TEXT = ,[Type], 42%, 12.5%, 42%, 8%, center
+    ELSE
+    TEXT = ,[Type], 19%, 10.5%, 61%, 10%, center
+    ENDIF
+ENDIF
+
+HTMLFONT = lb, Arial, 8, , #000000
+HTMLFONT = effect, Arial, 15, , #000000
+HTMLFONT = ie, Arial, 15,I , #000000
+
+HTMLFONT = glimText, "Arial", 15,,#000000,center
+
+save=,"[Name].png"
