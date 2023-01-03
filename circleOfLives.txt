@@ -37,7 +37,7 @@ HTMLIMAGE = 1, enl~,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.4,.4,PM
 LINKMULTI = num
 LINKNEW = <br>
 LINKFILTER = Inc <> ""
-LINK ="C:\Users\16515\Downloads\Circle Of Lives (2).xlsx"
+LINK ="C:\Users\16515\Downloads\Circle Of Lives (3).xlsx"
 
 ;VISUAL = ,10,10
 
