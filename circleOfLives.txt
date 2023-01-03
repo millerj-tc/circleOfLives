@@ -27,12 +27,16 @@ HTMLIMAGE = 1, coin~,"[base_folder]\tcgpics\cc0 icons\I_SilverCoin.png",.4,.4,PM
 HTMLIMAGE = 1, death!,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.9,.9,PM
 HTMLIMAGE = 1, death&,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.675,.675,PM
 HTMLIMAGE = 1, death~,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.4,.4,PM
+HTMLIMAGE = 1, enl!,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.9,.9,PM
+HTMLIMAGE = 1, enl&,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.675,.675,PM
+HTMLIMAGE = 1, enl~,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.4,.4,PM
+
 
 ; project ID = 2587359535
 
 LINKMULTI = num
 LINKNEW = <br>
-LINKFILTER = Inc = "@@@"
+LINKFILTER = Inc <> ""
 LINK ="C:\Users\16515\Downloads\Circle Of Lives (2).xlsx"
 
 ;VISUAL = ,10,10
@@ -53,7 +57,7 @@ IMAGE = , [ImageLink], 0, 21.5%, 100%, 36.5%, 0, PNC
 
 IF = "Character" # [Type]
     HTMLFONT = aN, "Agency FB",14,U,#000000
-    HTMLTEXT = , [FX], 4%, 59%, 93%, 38%, #FFFFFF, 0, EF, 100, effect
+    HTMLTEXT = , [FX], 4%, 59%, 91%, 38%, #FFFFFF, 0, EF, 100, effect
 ;    ELSEIF = [Sorting] = "Fey"
 ;    HTMLTEXT = , [FX], 4%, 59%, 93%, 33.5%, #FFFFFF, 0, EF, 100, awakenHuge
     ELSE
@@ -61,17 +65,13 @@ IF = "Character" # [Type]
 ENDIF
 
 
-IF = [Cost] <> ""
-    IF = [Type] = "Fey"
-    HTMLTEXT = , [Cost], 2%, 12.5%, 37%, 12%,#FFFFFF ,0, EF,100,awakenHuge
-    ELSE
-    HTMLTEXT = , [Cost], 2%, 12.5%, 32%, 8%,#FFFFFF ,0, EF,100,awaken
-    ENDIF
+IF = [Subvalue]<>""
+HTMLTEXT = , [Subvalue], 2%, 91.5%, 32%, 8%,#ADD8E6 ,0, EF,100,awakenWP
 ENDIF
 
 IF = [Type]<>""
     IF = [Type] = "Event"
-    TRIANGLE = , 5.5, 4, 5.5, 3, 5.75, 3.5, #FF00FF, EMPTY, 0.1
+    ;TRIANGLE = , 5.75, 7, 5.75, 6, 5.95, 6.5, #FF00FF, EMPTY, 0.1
     ENDIF
     TEXT = ,[Type], 19%, 10.5%, 61%, 10%, center
     
