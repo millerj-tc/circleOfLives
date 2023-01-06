@@ -30,10 +30,10 @@ HTMLIMAGE = 1, death~,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.4,.4,PM
 HTMLIMAGE = 1, enl!,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.9,.9,PM
 HTMLIMAGE = 1, enl&,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.675,.675,PM
 HTMLIMAGE = 1, enl~,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.4,.4,PM
-HTMLIMAGE = 1, move!,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.9,.9,PM
+HTMLIMAGE = 1, move!,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",1.5,1.5,PM
 HTMLIMAGE = 1, move&,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.675,.675,PM
 HTMLIMAGE = 1, move~,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.4,.4,PM
-HTMLIMAGE = 1, gro!,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.9,.9,PM
+HTMLIMAGE = 1, gro!,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",1.5,1.5,PM
 HTMLIMAGE = 1, gro&,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.675,.675,PM
 HTMLIMAGE = 1, gro~,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.4,.4,PM
 
@@ -43,7 +43,7 @@ HTMLIMAGE = 1, gro~,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.4,.4,PM
 LINKMULTI = num
 LINKNEW = <br>
 LINKFILTER = Inc <> ""
-LINK ="C:\Users\16515\Downloads\rhysJosephGame (1).xlsx"
+LINK ="C:\Users\16515\Downloads\rhysJosephGame (2).xlsx"
 
 ;VISUAL = ,10,10
 
@@ -61,18 +61,16 @@ HTMLMARGINS = awaken, 0,0,0,0,center
 
 IMAGE = , [ImageLink], 0, 21.5%, 100%, 36.5%, 0, PNC
 
-IF = "Character" # [Type]
-    HTMLFONT = aN, "Agency FB",14,U,#000000
-    HTMLTEXT = , [FX], 4%, 59%, 91%, 38%, #FFFFFF, 0, EF, 100, effect
-;    ELSEIF = [Sorting] = "Fey"
-;    HTMLTEXT = , [FX], 4%, 59%, 93%, 33.5%, #FFFFFF, 0, EF, 100, awakenHuge
-    ELSE
-    HTMLTEXT = , [FX], 4%, 59%, 93%, 34.25%, #FFFFFF, 0, EF, 100, effect
+IF = "!" @ [FX]
+HTMLTEXT = , [FX], 4%, 59%, 91%, 38%, #FFFFFF, 0, EF, 100, awakenHuge
+ELSE
+HTMLTEXT = , [FX], 4%, 59%, 91%, 38%, #FFFFFF, 0, EF, 100, effect
 ENDIF
 
 
+
 IF = [Grow]<>""
-HTMLTEXT = , [Grow], 2%, 12%, 32%, 8%,#ADD8E6 ,0, EF,100,awakenWP
+HTMLTEXT = , [Grow], 2%, 12%, 42%, 20.5%,#ADD8E6 ,0, EF,100,awakenHuge
 ENDIF
 
 IF = [Type]<>""
