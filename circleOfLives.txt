@@ -30,6 +30,12 @@ HTMLIMAGE = 1, death~,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.4,.4,PM
 HTMLIMAGE = 1, enl!,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.9,.9,PM
 HTMLIMAGE = 1, enl&,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.675,.675,PM
 HTMLIMAGE = 1, enl~,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.4,.4,PM
+HTMLIMAGE = 1, move!,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.9,.9,PM
+HTMLIMAGE = 1, move&,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.675,.675,PM
+HTMLIMAGE = 1, move~,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.4,.4,PM
+HTMLIMAGE = 1, gro!,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.9,.9,PM
+HTMLIMAGE = 1, gro&,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.675,.675,PM
+HTMLIMAGE = 1, gro~,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.4,.4,PM
 
 
 ; project ID = 2587359535
@@ -37,7 +43,7 @@ HTMLIMAGE = 1, enl~,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.4,.4,PM
 LINKMULTI = num
 LINKNEW = <br>
 LINKFILTER = Inc <> ""
-LINK ="C:\Users\16515\Downloads\Circle Of Lives (3).xlsx"
+LINK ="C:\Users\16515\Downloads\rhysJosephGame (1).xlsx"
 
 ;VISUAL = ,10,10
 
@@ -65,8 +71,8 @@ IF = "Character" # [Type]
 ENDIF
 
 
-IF = [Subvalue]<>""
-HTMLTEXT = , [Subvalue], 2%, 91.5%, 32%, 8%,#ADD8E6 ,0, EF,100,awakenWP
+IF = [Grow]<>""
+HTMLTEXT = , [Grow], 2%, 12%, 32%, 8%,#ADD8E6 ,0, EF,100,awakenWP
 ENDIF
 
 IF = [Type]<>""
