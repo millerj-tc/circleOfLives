@@ -1,41 +1,26 @@
 [base_folder]=C:\nandeck(1)
 
-HTMLIMAGE = 1, fire!,"[base_folder]\tcgpics\cc0 icons\S_Fire02.png",.9,.9,PM
-HTMLIMAGE = 1, fire&,"[base_folder]\tcgpics\cc0 icons\S_Fire02.png",.675,.675,PM
-HTMLIMAGE = 1, fire~,"[base_folder]\tcgpics\cc0 icons\S_Fire02.png",.4,.4,PM
-HTMLIMAGE = 1, water!,"[base_folder]\tcgpics\cc0 icons\S_Water02.png",.9,.9,PM
-HTMLIMAGE = 1, water&,"[base_folder]\tcgpics\cc0 icons\S_Water02.png",.675,.675,PM
-HTMLIMAGE = 1, water~,"[base_folder]\tcgpics\cc0 icons\S_Water02.png",.4,.4,PM
-HTMLIMAGE = 1, air!,"[base_folder]\tcgpics\cc0 icons\S_Wind04.png",.9,.9,PM
-HTMLIMAGE = 1, air&,"[base_folder]\tcgpics\cc0 icons\S_Wind04.png",.675,.675,PM
-HTMLIMAGE = 1, air~,"[base_folder]\tcgpics\cc0 icons\S_Wind04.png",.4,.4,PM
-HTMLIMAGE = 1, earth!,"[base_folder]\tcgpics\cc0 icons\S_Earth01.png",.9,.9,PM
-HTMLIMAGE = 1, earth&,"[base_folder]\tcgpics\cc0 icons\S_Earth01.png",.675,.675,PM
-HTMLIMAGE = 1, earth~,"[base_folder]\tcgpics\cc0 icons\S_Earth01.png",.4,.4,PM
-HTMLIMAGE = 1, stars!,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",.9,.9,PM
+HTMLIMAGE = 1, stars!,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",1.5,1.5,PM
 HTMLIMAGE = 1, stars&,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",.675,.675,PM
 HTMLIMAGE = 1, stars~,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",.4,.4,PM
 HTMLIMAGE = 1, drawc!,"[base_folder]\tcgpics\joseph art\drawCard.png",.9,.9,PM
 HTMLIMAGE = 1, drawc&,"[base_folder]\tcgpics\joseph art\drawCard.png",.675,.675,PM
 HTMLIMAGE = 1, drawc~,"[base_folder]\tcgpics\joseph art\drawCard.png",.4,.4,PM
-HTMLIMAGE = 1, time!,"[base_folder]\tcgpics\cc0 icons\I_Clock.png",.9,.9,PM
-HTMLIMAGE = 1, time&,"[base_folder]\tcgpics\cc0 icons\I_Clock.png",.675,.675,PM
-HTMLIMAGE = 1, time~,"[base_folder]\tcgpics\cc0 icons\I_Clock.png",.4,.4,PM
-HTMLIMAGE = 1, coin!,"[base_folder]\tcgpics\cc0 icons\I_SilverCoin.png",.9,.9,PM
-HTMLIMAGE = 1, coin&,"[base_folder]\tcgpics\cc0 icons\I_SilverCoin.png",.675,.675,PM
-HTMLIMAGE = 1, coin~,"[base_folder]\tcgpics\cc0 icons\I_SilverCoin.png",.4,.4,PM
-HTMLIMAGE = 1, death!,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.9,.9,PM
-HTMLIMAGE = 1, death&,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.675,.675,PM
-HTMLIMAGE = 1, death~,"[base_folder]\tcgpics\cc0 icons\S_Holy06.png",.4,.4,PM
-HTMLIMAGE = 1, enl!,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.9,.9,PM
-HTMLIMAGE = 1, enl&,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.675,.675,PM
-HTMLIMAGE = 1, enl~,"[base_folder]\tcgpics\cc0 icons\S_Magic02.png",.4,.4,PM
 HTMLIMAGE = 1, move!,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",1.5,1.5,PM
 HTMLIMAGE = 1, move&,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.675,.675,PM
 HTMLIMAGE = 1, move~,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.4,.4,PM
 HTMLIMAGE = 1, gro!,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",1.5,1.5,PM
 HTMLIMAGE = 1, gro&,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.675,.675,PM
 HTMLIMAGE = 1, gro~,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.4,.4,PM
+HTMLIMAGE = 1, fda!,"cardTemplateImages\anyFood.png",1.5,1.5,PM
+HTMLIMAGE = 1, fda&,"cardTemplateImages\anyFood.png",.675,.675,PM
+HTMLIMAGE = 1, fda~,"cardTemplateImages\anyFood.png",.4,.4,PM
+HTMLIMAGE = 1, shl!,"[base_folder]\tcgpics\cc0 icons\I_SnailShell.png",1.5,1.5,PM
+HTMLIMAGE = 1, shl&,"[base_folder]\tcgpics\cc0 icons\I_SnailShell.png",.675,.675,PM
+HTMLIMAGE = 1, shl~,"[base_folder]\tcgpics\cc0 icons\I_SnailShell.png",.4,.4,PM
+HTMLIMAGE = 1, msh!,"[base_folder]\tcgpics\cc0 icons\I_C_Mushroom.png",1.5,1.5,PM
+HTMLIMAGE = 1, msh&,"[base_folder]\tcgpics\cc0 icons\I_C_Mushroom.png",.675,.675,PM
+HTMLIMAGE = 1, msh~,"[base_folder]\tcgpics\cc0 icons\I_C_Mushroom.png",.4,.4,PM
 
 
 ; project ID = 2587359535
@@ -43,7 +28,7 @@ HTMLIMAGE = 1, gro~,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.4,.4,PM
 LINKMULTI = num
 LINKNEW = <br>
 LINKFILTER = Inc <> ""
-LINK ="C:\Users\16515\Downloads\rhysJosephGame (2).xlsx"
+LINK ="C:\Users\16515\Downloads\rhysJosephGame (4).xlsx"
 
 ;VISUAL = ,10,10
 
@@ -52,7 +37,7 @@ LINK ="C:\Users\16515\Downloads\rhysJosephGame (2).xlsx"
 FONT = Arial, 16,F , #000000
 
 FONT = Arial, 22,F , #000000
-TEXT = , [Name], 2%, 2%, 96%, 8%
+TEXT = , [Name], 46%, 2%, 50%, 8%
 HTMLFONT = awaken, Arial, 22, , #000000
 HTMLFONT = awakenWP, Arial, 20, , #000000,center
 HTMLFONT = awakenLittle, Arial, 5.5, , #000000, center
@@ -70,16 +55,12 @@ ENDIF
 
 
 IF = [Grow]<>""
-HTMLTEXT = , [Grow], 2%, 12%, 42%, 20.5%,#ADD8E6 ,0, EF,100,awakenHuge
+HTMLTEXT = , [Grow], 2%, 2%, 42%, 18.5%,#ADD8E6 ,0, EF,100,awakenHuge
 ENDIF
 
-IF = [Type]<>""
-    IF = [Type] = "Event"
-    ;TRIANGLE = , 5.75, 7, 5.75, 6, 5.95, 6.5, #FF00FF, EMPTY, 0.1
-    ENDIF
-    TEXT = ,[Type], 19%, 10.5%, 61%, 10%, center
-    
-ENDIF
+
+TEXT = ,[Type], 46%, 10.5%, 50%, 10%, center
+
 
 HTMLFONT = lb, Arial, 8, , #000000
 HTMLFONT = effect, Arial, 15, , #000000
