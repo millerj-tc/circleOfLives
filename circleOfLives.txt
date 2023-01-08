@@ -6,6 +6,9 @@ HTMLIMAGE = 1, stars~,"[base_folder]\tcgpics\cc0 icons\S_Light02.png",.4,.4,PM
 HTMLIMAGE = 1, drawc!,"[base_folder]\tcgpics\joseph art\drawCard.png",.9,.9,PM
 HTMLIMAGE = 1, drawc&,"[base_folder]\tcgpics\joseph art\drawCard.png",.675,.675,PM
 HTMLIMAGE = 1, drawc~,"[base_folder]\tcgpics\joseph art\drawCard.png",.4,.4,PM
+HTMLIMAGE = 1, discardc!,"[base_folder]\tcgpics\joseph art\discardCard.png",.9,.9,PM
+HTMLIMAGE = 1, discardc&,"[base_folder]\tcgpics\joseph art\discardCard.png",.675,.675,PM
+HTMLIMAGE = 1, discardc~,"[base_folder]\tcgpics\joseph art\discardCard.png",.4,.4,PM
 HTMLIMAGE = 1, move!,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",1.5,1.5,PM
 HTMLIMAGE = 1, move&,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.675,.675,PM
 HTMLIMAGE = 1, move~,"[base_folder]\tcgpics\cc0 icons\A_Shoes02.png",.4,.4,PM
@@ -15,6 +18,15 @@ HTMLIMAGE = 1, gro~,"[base_folder]\tcgpics\cc0 icons\I_Clover.png",.4,.4,PM
 HTMLIMAGE = 1, fda!,"cardTemplateImages\anyFood.png",1.5,1.5,PM
 HTMLIMAGE = 1, fda&,"cardTemplateImages\anyFood.png",.675,.675,PM
 HTMLIMAGE = 1, fda~,"cardTemplateImages\anyFood.png",.4,.4,PM
+HTMLIMAGE = 1, fds!,"cardTemplateImages\sproutFood.png",1.5,1.5,PM
+HTMLIMAGE = 1, fds&,"cardTemplateImages\sproutFood.png",.675,.675,PM
+HTMLIMAGE = 1, fds~,"cardTemplateImages\sproutFood.png",.4,.4,PM
+HTMLIMAGE = 1, fdm!,"cardTemplateImages\mushroomFood.png",1.5,1.5,PM
+HTMLIMAGE = 1, fdm&,"cardTemplateImages\mushroomFood.png",.675,.675,PM
+HTMLIMAGE = 1, fdm~,"cardTemplateImages\mushroomFood.png",.4,.4,PM
+HTMLIMAGE = 1, fdb!,"cardTemplateImages\strawberryFood.png",1.5,1.5,PM
+HTMLIMAGE = 1, fdb&,"cardTemplateImages\strawberryFood.png",.675,.675,PM
+HTMLIMAGE = 1, fdb~,"cardTemplateImages\strawberryFood.png",.4,.4,PM
 HTMLIMAGE = 1, shl!,"[base_folder]\tcgpics\cc0 icons\I_SnailShell.png",1.5,1.5,PM
 HTMLIMAGE = 1, shl&,"[base_folder]\tcgpics\cc0 icons\I_SnailShell.png",.675,.675,PM
 HTMLIMAGE = 1, shl~,"[base_folder]\tcgpics\cc0 icons\I_SnailShell.png",.4,.4,PM
@@ -28,7 +40,7 @@ HTMLIMAGE = 1, msh~,"[base_folder]\tcgpics\cc0 icons\I_C_Mushroom.png",.4,.4,PM
 LINKMULTI = num
 LINKNEW = <br>
 LINKFILTER = Inc <> ""
-LINK ="C:\Users\16515\Downloads\rhysJosephGame (4).xlsx"
+LINK ="C:\Users\16515\Downloads\rhysJosephGame (9).xlsx"
 
 ;VISUAL = ,10,10
 
@@ -37,8 +49,8 @@ LINK ="C:\Users\16515\Downloads\rhysJosephGame (4).xlsx"
 FONT = Arial, 16,F , #000000
 
 FONT = Arial, 22,F , #000000
-TEXT = , [Name], 46%, 2%, 50%, 8%
-HTMLFONT = awaken, Arial, 22, , #000000
+TEXT = , [Nameline], 2%, 59%, 96%, 8%
+HTMLFONT = awaken, Arial, 20, , #000000
 HTMLFONT = awakenWP, Arial, 20, , #000000,center
 HTMLFONT = awakenLittle, Arial, 5.5, , #000000, center
 HTMLFONT = awakenHuge,Arial, 36, ,#000000
@@ -47,9 +59,9 @@ HTMLMARGINS = awaken, 0,0,0,0,center
 IMAGE = , [ImageLink], 0, 21.5%, 100%, 36.5%, 0, PNC
 
 IF = "!" @ [FX]
-HTMLTEXT = , [FX], 4%, 59%, 91%, 38%, #FFFFFF, 0, EF, 100, awakenHuge
+HTMLTEXT = , [FX], 4%, 67%, 91%, 32%, #FFFFFF, 0, E, 100, awaken
 ELSE
-HTMLTEXT = , [FX], 4%, 59%, 91%, 38%, #FFFFFF, 0, EF, 100, effect
+HTMLTEXT = , [FX], 4%, 67%, 91%, 32%, #FFFFFF, 0, EF, 100, effect
 ENDIF
 
 
@@ -57,9 +69,6 @@ ENDIF
 IF = [Grow]<>""
 HTMLTEXT = , [Grow], 2%, 2%, 42%, 18.5%,#ADD8E6 ,0, EF,100,awakenHuge
 ENDIF
-
-
-TEXT = ,[Type], 46%, 10.5%, 50%, 10%, center
 
 
 HTMLFONT = lb, Arial, 8, , #000000
