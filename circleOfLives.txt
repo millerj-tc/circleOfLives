@@ -40,7 +40,7 @@ HTMLIMAGE = 1, msh~,"[base_folder]\tcgpics\cc0 icons\I_C_Mushroom.png",.4,.4,PM
 LINKMULTI = num
 LINKNEW = <br>
 LINKFILTER = Inc <> ""
-LINK ="C:\Users\16515\Downloads\rhysJosephGame (9).xlsx"
+LINK ="C:\Users\16515\Downloads\rhysJosephGame (11).xlsx"
 
 ;VISUAL = ,10,10
 
@@ -49,12 +49,13 @@ LINK ="C:\Users\16515\Downloads\rhysJosephGame (9).xlsx"
 FONT = Arial, 16,F , #000000
 
 FONT = Arial, 22,F , #000000
-TEXT = , [Nameline], 2%, 59%, 96%, 8%
 HTMLFONT = awaken, Arial, 20, , #000000
 HTMLFONT = awakenWP, Arial, 20, , #000000,center
 HTMLFONT = awakenLittle, Arial, 5.5, , #000000, center
 HTMLFONT = awakenHuge,Arial, 36, ,#000000
 HTMLMARGINS = awaken, 0,0,0,0,center
+
+HTMLTEXT = , [Nameline], 2%, 59%, 96%, 8%, #ADD8E6, 0, EF, 100, awaken
 
 IMAGE = , [ImageLink], 0, 21.5%, 100%, 36.5%, 0, PNC
 
